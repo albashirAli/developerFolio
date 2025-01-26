@@ -162,16 +162,28 @@ viewSkillBars: true, //Set it to true to show Proficiency Section
 experience: [
   {
     Stack: "Frontend/Design",
-    progressPercentage: "90%"
-  },
-  {
-    Stack: "Backend Development",
     progressPercentage: "85%"
   },
   {
+    Stack: "Backend Development",
+    progressPercentage: "95%"
+  },
+  {
     Stack: "Data Structures & Algorithms",
-    progressPercentage: "80%"
-  }
+    progressPercentage: "95%"
+  },
+  {
+    Stack: "System Engineering Tools",
+    progressPercentage: "85%"
+  },
+  {
+    Stack: "Artificial Intelligence & Machine Learning",
+    progressPercentage: "90%"
+  },
+  {
+    Stack: "Network Systems & Security",
+    progressPercentage: "95%"
+  },
 ],
 displayCodersrank: false // Set true to display codersrank badges section
 };
@@ -188,9 +200,10 @@ experience: [
     date: "May 2023 – August 2024",
     desc: "Collaborated on multidisciplinary teams to design and develop electronic data processing systems.",
     descBullets: [
-      "Utilized SQL, Java, and bash scripting to enhance functionality and performance.",
-      "Implemented JUnit testing and SonarQube for code quality assurance.",
-      "Conducted code reviews and optimized system design diagrams."
+      "Updated TRD requirements and refining sequence, class, and UML package diagrams.",
+      "Utilized SQL, Java, and bash scripting to design and implement efficient algorithms, enhancing program functionality, performance, and access for cross-functional teams.",
+      "Implemented J Unit and SonarQube to ensure code reliability,performance, and continuous code quality inspection.",
+      "Led efforts to develop Lean Agile engineering and management best practices, metrics, and audit practices."
     ]
   },
   {
@@ -200,8 +213,10 @@ experience: [
     date: "December 2024 – Present",
     desc: "Led a platform connecting entrepreneurs, venture capitalists, and mentors for impactful collaborations.",
     descBullets: [
-      "Built a network fostering entrepreneurial innovation and mentorship.",
-      "Oversaw product vision and strategic growth initiatives."
+      "Pioneered AI-driven solutions to analyze and summarize critical documents for hedge funds, delivering tailored insights based on trading history and client-defined priorities.",
+      "Led cross-functional teams in developing personalized AI tools for individual trading desks, ensuring bespoke solutions for enhanced decision-making.",
+      "Managed financial strategies and pitching efforts, securing buy-in from stakeholders and aligning AI innovations with business objectives.",
+      "Directed strategic planning and implementation, bridging the gap between technical development and financial applications to streamline hedge fund operations."
     ]
   },
   {
@@ -211,8 +226,10 @@ experience: [
     date: "June 2024 – Present",
     desc: "Developing software to enhance traders' experience at hedge funds.",
     descBullets: [
-      "Designed user-friendly tools to optimize trading workflows.",
-      "Utilized advanced algorithms to analyze financial data for trading efficiency."
+      "Pioneered AI-driven solutions to analyze and summarize critical documents for hedge funds, delivering tailored insights based on trading history and client-defined priorities.",
+      "Led cross-functional teams in developing personalized AI tools for individual trading desks, ensuring bespoke solutions for enhanced decision-making.",
+      "Managed financial strategies and pitching efforts, securing buy-in from stakeholders and aligning AI innovations with business objectives.",
+      "Directed strategic planning and implementation, bridging the gap between technical development and financial applications to streamline hedge fund operations."
     ]
   },
   {
@@ -222,8 +239,55 @@ experience: [
     date: "July 2024 – Present",
     desc: "Created fleet management and ride scheduling software solutions.",
     descBullets: [
-      "Developed a system for efficient driver assignments and optimized routes.",
-      "Implemented features for dynamic fleet tracking and real-time scheduling."
+      "Optimized daily vehicle routing schedules for 300+ trips using Google OR tools and custom algorithms, reducing driver requirements and operational costs.",
+      "Designed and implemented a fleet management system to track fuel usage, vehicle maintenance, and real-time locations, enhancing operational transparency and efficiency.",
+      "Developed a machine learning algorithm to adapt schedules dynamically based on real-time ride cancellations or additions, ensuring optimal resource allocation.",
+      "Built a comprehensive application for dispatch, management, and mechanics to streamline communication and vehicle performance monitoring."
+    ]
+  },
+  {
+    role: "Store Leader (Manager)",
+    company: "7-Eleven",
+    companylogo: require("./assets/images/7elevenLogo.png"),
+    date: "November 2020 – August 2021",
+    desc: "Managed cross-functional team and improved operational efficiency.",
+    descBullets: [
+      "Supervised a team of 9 employees to handle store supply, customer relations, and finances.",
+      "Drafted a 6-month plan to reconstruct the facility to increase customer satisfaction.",
+      "Analyzed and implemented marketing strategies that increased store income by 15%."
+    ]
+  },
+  {
+    role: "Chair",
+    company: "Colorado Youth Congress",
+    companylogo: require("./assets/images/cycLogo.png"),
+    date: "October 2018 – August 2021",
+    desc: "Led social outreach and funding initiatives to support community programs.",
+    descBullets: [
+      "Orchestrated over 90 members to fulfill social outreach and funding objectives.",
+      "Provided education policy recommendations to the Denver Board of Education and Denver Mayor Michael Hancock."
+    ]
+  },
+  {
+    role: "Rocky Mountain Zone Chair (Regional Board)",
+    company: "National Society of Black Engineers (NSBE)",
+    companylogo: require("./assets/images/nsbeLogo.png"),
+    date: "May 2024 – Present",
+    desc: "Provided guidance and leadership for NSBE chapters within Zone 6.",
+    descBullets: [
+      "Oversaw 14 NSBE chapters, offering guidance on securing funding and best leadership practices.",
+      "Coordinated large-scale events, including FRC with 3,000 attendees and a national convention with over 20,000 attendees."
+    ]
+  },
+  {
+    role: "Senator",
+    company: "National Society of Black Engineers @ University of Colorado Boulder",
+    companylogo: require("./assets/images/nsbeLogo.png"),
+    date: "April 2022 – May 2024",
+    desc: "Engaged in decision-making processes to support NSBE’s mission and initiatives.",
+    descBullets: [
+      "Allocated a $40,000 budget for the University of Colorado Boulder NSBE chapter.",
+      "Voted on critical issues including budget allocations, organizational policies, and strategic initiatives."
     ]
   }
 ]
@@ -244,7 +308,7 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/foundersLogo.png"),
+      image: require("./assets/images/collegeMindspace.png"),
       projectName: "College MindSpace",
       projectDesc:
         "Led a cross-functional team to develop a diverse educational content library, integrated AI-driven essay editing tools, and created personalized learning algorithms.",
@@ -276,6 +340,66 @@ const bigProjects = {
         {
           name: "View Project",
           url: "https://github.com/example-cryptocurrency" // Replace with the actual URL if available
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/battleshipLogo.png"),
+      projectName: "Battleship Desktop Game",
+      projectDesc:
+        "Implemented multiplayer and single-player modes featuring pattern identification to enhance user engagement. Managed game data for progress tracking, statistics, and leaderboards using C++ and Qt.",
+      footerLink: [
+        {
+          name: "View Project",
+          url: "https://github.com/example-battleship" // Replace with the actual URL if available
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/crashSimulatorLogo.png"),
+      projectName: "Crash Simulator Video Game",
+      projectDesc:
+        "Designed a 2D map simulating traffic laws and crash scenarios. Built a main class referencing eight integrated classes for vehicle stats, scenario outcomes, and user information.",
+      footerLink: [
+        {
+          name: "View Project",
+          url: "https://github.com/example-crash-simulator" // Replace with the actual URL if available
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/foodFinderLogo.png"),
+      projectName: "Food Finder",
+      projectDesc:
+        "Conceptualized and led the development of a crowd-sourced dining recommendation website using SQL, Java, HTML, and CSS. Created a responsive UI and implemented location-based search functionality for improved user experience.",
+      footerLink: [
+        {
+          name: "View Project",
+          url: "https://github.com/example-foodfinder" // Replace with the actual URL if available
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/pagerPredictLogo.png"),
+      projectName: "Pager Predict",
+      projectDesc:
+        "Developed an LRU-based paging algorithm for optimized memory management in a multi-process environment. Implemented adaptive prefetching, eviction strategies, and artificial time simulation to handle complex memory paging scenarios.",
+      footerLink: [
+        {
+          name: "View Project",
+          url: "https://github.com/example-pagerpredict" // Replace with the actual URL if available
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/cyberSecurityLogo.png"), // Replace with the actual image file name
+      projectName: "Cyber Security Enforcement",
+      projectDesc:
+        "Conducted comprehensive security assessments, identifying and mitigating vulnerabilities such as SQL Injection, Cross-Site Scripting (XSS), and form manipulation. Designed and implemented server-side validation mechanisms, token-based authentication, and secure coding practices to enhance transactional security.",
+      footerLink: [
+        {
+          name: "View Project",
+          url: "https://github.com/example-cybersecurity" // Replace with the actual URL if available
         }
       ]
     }
@@ -341,7 +465,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -365,7 +489,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -425,6 +549,7 @@ const twitterDetails = {
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+
 
 export {
   illustration,
